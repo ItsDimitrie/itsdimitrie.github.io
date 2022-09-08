@@ -1,0 +1,299 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-repeat:repeat;
+  background-color: black;
+  background-image: url(https://wallpaperaccess.com/full/39632.jpg);
+  background-size: auto;
+}
+
+h1 {
+  margin-top: auto;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+h2 {
+  margin-top: 0px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+h3 {
+  margin-top: 0px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+
+}
+
+p {
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+#myblogs {
+  text-align: center;
+}
+
+#myblogs a {
+  font-size: 20px;
+  color: #fdfdfd;
+}
+
+#myblogs button {
+  background-color: rgba(0, 0, 0, .55);
+  border: none;
+  box-shadow: 0 1px 16px 0 rgb(0, 0, 0), 0 6px 20px;
+  margin-top: 20px;
+}
+
+#FAQ {
+  text-align: center;
+}
+
+#FAQ a {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#FAQ button {
+  background-color: rgba(0, 0, 0, .55);
+  border: none;
+  box-shadow: 0 1px 16px 0 rgb(0, 0, 0), 0 6px 20px;
+  margin-top: 20px;
+}
+
+#headerfoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 25px;
+  box-shadow: rgba(255, 253, 253, 0.45) 0px 25px 20px -20px;
+}
+
+#footerfoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#socials {
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+a {
+  color: white;
+}
+
+article {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, .30);
+  margin-top: 100px;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+footer {
+  padding-top: 20px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#headerlinks {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#headerlinks a {
+  color: black;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+#headerlinks a:hover {
+  background-color: rgb(43, 43, 171);
+}
+
+#headerlinks button {
+  background-color: white;
+  border: none;
+  box-shadow: 0 1px 16px 0 white, 0 6px 20px
+}
+
+#headerlinks .active{
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+
+#fotolinks {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+#sportfoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
+}
+
+#studiofoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
+}
+
+#customers {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#NEP {
+  padding-right: 40px;
+}
+
+#aboutmefoto {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
+}
+
+
+#asidemenu {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, .30);
+}
+
+ul {
+  list-style: none;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9em;
+  width: 1000px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.styled-table thead tr {
+  background-color: rgba(0, 0, 0, .30);
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  padding: 12px 15px;
+  background-color: rgba(252, 252, 252, 0.3);
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+
+
+
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+
+}
+
+
+#progressbar {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.dropbtn {
+  background-color: rgba(255, 255, 255, .3);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: fixed;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, .30);
+}
+
+.dropdown-content a {
+  color: white;
+  padding-left: 0px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(0, 0, 0, .8)
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.dropdown-content li {
+  text-align: left;
+}
