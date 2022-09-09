@@ -283,9 +283,6 @@ ul {
   border-left: 1px solid white;
   border-right: 1px solid white;
   border-top: 1px solid white;
-
-
-
 }
 
 .styled-table tbody tr {
@@ -294,6 +291,14 @@ ul {
   border-left: 1px solid white;
   border-right: 1px solid white;
 
+}
+
+.styled-table .gradegreen {
+  color:greenyellow;
+}
+
+.styled-table .gradered {
+  color:red;
 }
 
 
