@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  padding-top:20px;
+  padding-top:50px;
   margin-top: auto;
   color: white;
   text-align: center;
@@ -224,8 +224,23 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
-  box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
+  width: 10%;
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 30px 90px 4px;
+}
+
+#aboutme {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
+  background-color: rgba(0, 0, 0, .30);
+  text-align: center;
+}
+
+#aboutmevideo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(255, 253, 253, 0.9) 0px 40px 200px -20px;
 }
 
 
