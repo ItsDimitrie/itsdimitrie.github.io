@@ -249,16 +249,23 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: 20%;
   box-shadow: rgba(0, 0, 0, 0.9) 0px 30px 90px 4px;
 }
 
-#aboutme {
+#aboutme p {
   margin-left: auto;
   margin-right: auto;
-  width: 1500px;
   background-color: rgba(0, 0, 0, .30);
   text-align: center;
+}
+
+
+#aboutme ul {
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+  background-color: rgba(0, 0, 0, .30);
 }
 
 #aboutmevideo {
