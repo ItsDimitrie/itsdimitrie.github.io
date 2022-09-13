@@ -118,6 +118,13 @@ p {
   box-shadow: rgba(255, 253, 253, 0.45) 0px 25px 20px -20px;
 }
 
+#welkomsbericht{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:1200px;
+}
+
 #welkomgif {
   display: block;
   margin-left: auto;
