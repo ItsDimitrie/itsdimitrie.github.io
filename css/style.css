@@ -1,13 +1,13 @@
 body {
   font-family: Roboto, sans-serif;
-  background-repeat:repeat;
+  background-repeat: repeat;
   background-color: black;
   background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/21b5d8f9-81f1-4064-976e-0b95491b8b47/d7gg972-c1a1b22b-6941-48df-a030-b13ff24070eb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzIxYjVkOGY5LTgxZjEtNDA2NC05NzZlLTBiOTU0OTFiOGI0N1wvZDdnZzk3Mi1jMWExYjIyYi02OTQxLTQ4ZGYtYTAzMC1iMTNmZjI0MDcwZWIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ZjDhu6q2Rq7uDZ3965aRnK9lFJus0AWyhm6oQYb-qhs);
   background-size: auto;
 }
 
 h1 {
-  padding-top:50px;
+  padding-top: 50px;
   margin-top: auto;
   color: white;
   text-align: center;
@@ -42,6 +42,34 @@ p {
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 }
 
+a {
+  color: white;
+}
+
+article {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, .30);
+  margin-top: 100px;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+footer {
+  padding-top: 20px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* ----------------- Blogs Section --------------- */
+
 #myblogs {
   text-align: center;
 }
@@ -56,41 +84,44 @@ p {
   border: none;
   box-shadow: 0 1px 16px 0 rgb(0, 0, 0), 0 6px 20px;
   margin-top: 20px;
-  margin:20px;
+  margin: 20px;
 }
 
 #studychoiseimg {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   box-shadow: 0 1px 16px 0 rgb(0, 0, 0), 0 6px 20px;
-  width:400px;
+  width: 400px;
 }
 
 #programexperienceimg {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width:400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
   box-shadow: 0 1px 16px 0 rgb(0, 0, 0), 0 6px 20px;
 }
 
 #feedbackimg {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width:400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
   box-shadow: 0 1px 16px 0 rgb(0, 0, 0), 0 6px 20px;
 }
 
 #safariimg {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width:400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
   box-shadow: 0 1px 16px 0 rgb(0, 0, 0), 0 6px 20px;
 
 }
+
+/* ----------------- FAQ Section ------------------------------------------------------- */
+
 
 #FAQ {
   text-align: center;
@@ -118,11 +149,14 @@ p {
   box-shadow: rgba(255, 253, 253, 0.45) 0px 25px 20px -20px;
 }
 
-#welkomsbericht{
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width:1200px;
+/* ----------------- Welkom Section ---------------------------------------------------- */
+
+
+#welkomsbericht {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
 }
 
 #welkomgif {
@@ -131,7 +165,7 @@ p {
   margin-right: auto;
   width: 20%;
   height: 200px;
-  padding-top:40px;
+  padding-top: 40px;
   box-shadow: rgba(255, 253, 253, 0.9) 0px 50px 40px -20px;
 }
 
@@ -152,7 +186,7 @@ p {
   width: 50%;
 }
 
-#bananaleft{
+#bananaleft {
   opacity: 20%;
   position: absolute;
   bottom: 0px;
@@ -161,7 +195,7 @@ p {
   padding-left: 400px;
 }
 
-#bananaright{
+#bananaright {
   opacity: 20%;
   position: absolute;
   bottom: 0px;
@@ -175,31 +209,8 @@ p {
   text-shadow: 2px 2px 4px #000000;
 }
 
-a {
-  color: white;
-}
+/* ----------------- Header Section ---------------------------------------------------- */
 
-article {
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: rgba(0, 0, 0, .30);
-  margin-top: 100px;
-  text-align: center;
-}
-
-nav {
-  text-align: center;
-}
-
-footer {
-  padding-top: 20px;
-}
-
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 
 #headerlinks {
   text-align: center;
@@ -222,9 +233,11 @@ header {
   box-shadow: 0 1px 16px 0 white, 0 6px 20px
 }
 
-#headerlinks .active{
+#headerlinks .active {
   background-color: rgba(255, 0, 0, 0.6);
 }
+
+/* ----------------- Camera Experience Pictures Section ---------------------------------------------------- */
 
 
 #fotolinks {
@@ -262,6 +275,9 @@ header {
   padding-right: 40px;
 }
 
+/* ----------------- About Me Section ---------------------------------------------------- */
+
+
 #aboutmefoto {
   text-align: center;
   display: block;
@@ -282,7 +298,7 @@ header {
 #aboutme ul {
   margin-left: auto;
   margin-right: auto;
-  width:auto;
+  width: auto;
   background-color: rgba(0, 0, 0, .30);
 }
 
@@ -292,6 +308,8 @@ header {
   margin-right: auto;
   box-shadow: rgba(255, 253, 253, 0.9) 0px 40px 200px -20px;
 }
+
+/* ----------------- Aside Menu and Dashboard Section ---------------------------------------------------- */
 
 
 #asidemenu {
@@ -343,24 +361,14 @@ ul {
 }
 
 .styled-table .gradegreen {
-  color:greenyellow;
+  color: greenyellow;
 }
 
 .styled-table .gradered {
-  color:rgb(255, 0, 0);
-  
+  color: rgb(255, 0, 0);
+
 }
 
-
-#progressbar {
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
-  background-color: rgba(255, 0, 0, 0.5);
-}
 
 .dropbtn {
   background-color: rgba(255, 255, 255, .3);
@@ -404,4 +412,17 @@ ul {
 
 .dropdown:hover .dropbtn {
   background-color: rgba(0, 0, 0, .8);
+}
+
+/* ----------------- Progress Bar Section ---------------------------------------------------- */
+
+
+#progressbar {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  background-color: rgba(255, 0, 0, 0.5);
 }
