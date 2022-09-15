@@ -326,6 +326,12 @@ ul {
 
 }
 
+li {
+  display:block;
+  text-align: center;
+  padding-right:40px;
+}
+
 .styled-table {
   border-collapse: collapse;
   margin-left: auto;
