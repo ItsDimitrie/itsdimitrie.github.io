@@ -152,6 +152,9 @@ header {
 
 /* ----------------- Welkom Section ---------------------------------------------------- */
 
+#flexbox{
+  display:flex;
+}
 
 #welkomsbericht {
   display: block;
@@ -324,6 +327,10 @@ header {
 
 /* ----------------- Aside Menu and Dashboard Section ---------------------------------------------------- */
 
+#dashboardGeheel {
+  display: flex;
+}
+
 
 #asidemenu {
   margin: 0;
@@ -394,7 +401,7 @@ li {
   background-color: rgba(255, 255, 255, .3);
   color: rgb(255, 255, 255);
   padding: 10px;
-  font-size: 15px;
+  font-size: 20px;
   border: none;
   cursor: pointer;
 }
@@ -413,6 +420,7 @@ li {
 }
 
 .dropdown-content a {
+  font-size: 25px;
   color: white;
   padding-left: 0px;
   padding-right: 50px;
